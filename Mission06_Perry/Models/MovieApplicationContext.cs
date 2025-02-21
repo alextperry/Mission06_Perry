@@ -13,7 +13,10 @@ namespace Mission06_Perry.Models
         }
 
         // setting up the Applications table in the db
-        public DbSet<Application> Applications { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+
 
     }
 }
